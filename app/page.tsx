@@ -32,8 +32,8 @@ export default function Home() {
       features: ["Paraphrase AI generated text to human-like text"],
     },
     {
-      title: "InooBiz Wedding SaaS",
-      status: "Coming Soon",
+      title: "Invte",
+      status: "Under Development",
       description: "A modern, edge-powered digital wedding invitation platform featuring auto-generated subdomains, premium responsive templates, and RSVP management.",
       link: null,
       tech: ["Next.js", "PostgreSQL", "Tailwind CSS", "etc."],
