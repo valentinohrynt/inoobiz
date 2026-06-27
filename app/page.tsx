@@ -365,12 +365,12 @@ export default function Home() {
                   <p className="text-sm text-slate-500 mb-4">Get direct assistance or chat with our studio developer.</p>
                 </div>
                 <a
-                  href="https://wa.me/6281234567890"
+                  href="https://wa.me/628567878149"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm font-bold text-emerald-600 hover:text-emerald-700"
                 >
-                  +62 812 3456 7890
+                  +62 856-7878-149
                 </a>
               </div>
 
@@ -397,7 +397,7 @@ export default function Home() {
                   <MapPin className="h-5 w-5" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-slate-900">Registered Business Office</h4>
+                  <h4 className="font-bold text-slate-900">Mailing & Business Address</h4>
                   <p className="text-sm text-slate-600 mt-0.5">
                     Jl. Kemang Raya No. 10, Jakarta Selatan, DKI Jakarta 12730, Indonesia
                   </p>
