@@ -347,10 +347,10 @@ export default function Home() {
                   <p className="text-sm text-slate-500 mb-4">For general inquires, support, and business proposals.</p>
                 </div>
                 <a
-                  href="mailto:hello@inoobiz.com"
+                  href="mailto:hello@inoobiz.web.id"
                   className="text-sm font-bold text-blue-600 hover:text-blue-700 break-all"
                 >
-                  hello@inoobiz.com
+                  hello@inoobiz.web.id
                 </a>
               </div>
 

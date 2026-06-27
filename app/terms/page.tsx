@@ -88,7 +88,7 @@ export default function TermsOfService() {
                 <li>Provide accurate, current, and complete information during registration.</li>
                 <li>Maintain the security of your password and credentials.</li>
                 <li>Promptly update account information to keep it accurate.</li>
-                <li>Notify us immediately at <a href="mailto:hello@inoobiz.com" className="text-blue-600 hover:underline">hello@inoobiz.com</a> if you suspect any unauthorized access to your account.</li>
+                <li>Notify us immediately at <a href="mailto:hello@inoobiz.web.id" className="text-blue-600 hover:underline">hello@inoobiz.web.id</a> if you suspect any unauthorized access to your account.</li>
               </ul>
               <p>
                 You are solely responsible for all activities that occur under your account, and we are not liable for any loss or damage arising from your failure to comply with this section.
@@ -180,7 +180,7 @@ export default function TermsOfService() {
               </p>
               <div className="bg-slate-50 rounded-2xl p-5 border border-slate-200 text-xs sm:text-sm space-y-2">
                 <p><strong>Studio Name:</strong> InooBiz (Independent Digital Studio)</p>
-                <p><strong>Contact Email:</strong> <a href="mailto:hello@inoobiz.com" className="text-blue-600 hover:underline">hello@inoobiz.com</a></p>
+                <p><strong>Contact Email:</strong> <a href="mailto:hello@inoobiz.web.id" className="text-blue-600 hover:underline">hello@inoobiz.web.id</a></p>
                 <p><strong>Contact WhatsApp:</strong> <a href="https://wa.me/628567878149" className="text-blue-600 hover:underline">+62 856-7878-149</a></p>
               </div>
             </section>
