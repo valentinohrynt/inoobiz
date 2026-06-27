@@ -398,11 +398,11 @@ export default function Home() {
       <footer className="bg-slate-900 text-slate-400 border-t border-slate-800">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-slate-800">
-            <Link href="/" className="flex items-center bg-white px-3 py-1.5 rounded-xl shadow-sm border border-slate-800 hover:bg-slate-50 transition-colors">
+            <Link href="/" className="flex items-center hover:opacity-90 transition-opacity">
               <img
-                src="/inoobiz-logo-horizontal.svg"
+                src="/inoobiz-logo-white.svg"
                 alt="InooBiz Logo"
-                className="h-6 w-auto block"
+                className="h-10 w-auto block"
               />
             </Link>
 
