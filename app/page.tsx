@@ -402,7 +402,7 @@ export default function Home() {
               <img
                 src="/inoobiz-logo-white.svg"
                 alt="InooBiz Logo"
-                className="h-10 w-auto block"
+                className="h-14 w-auto block"
               />
             </Link>
 
