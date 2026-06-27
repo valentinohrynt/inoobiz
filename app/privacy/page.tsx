@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { ChevronLeft, Shield, Calendar, Eye, Lock, Globe, HelpCircle } from "lucide-react";
+import { ChevronLeft, Shield, Calendar, Lock, HelpCircle } from "lucide-react";
 
 export default function PrivacyPolicy() {
   const lastUpdated = "June 27, 2026";
