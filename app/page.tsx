@@ -28,7 +28,7 @@ export default function Home() {
       status: "Live",
       description: "A comprehensive digital platform and web service designed to streamline human-centric data processing and workflow automation.",
       link: "https://manusiain.web.id",
-      tech: ["Next.js", "Tailwind CSS", "TypeScript", "Node.js"],
+      tech: ["Next.js", "Tailwind CSS", "TypeScript", "Node.js", "etc."],
       features: ["Real-time synchronization", "Intuitive user dashboard", "Secure data privacy controls"],
     },
     {
@@ -36,14 +36,14 @@ export default function Home() {
       status: "Coming Soon",
       description: "A modern, edge-powered digital wedding invitation platform featuring auto-generated subdomains, premium responsive templates, and RSVP management.",
       link: null,
-      tech: ["Next.js", "Vercel Edge", "PostgreSQL", "Tailwind CSS"],
+      tech: ["Next.js", "PostgreSQL", "Tailwind CSS", "etc."],
       features: ["Instant subdomain provisioning", "Interactive guest RSVP", "Custom template builder"],
     },
   ];
 
   return (
     <div className="flex flex-col min-h-screen bg-slate-50/50 text-slate-900 font-sans selection:bg-blue-500/10 selection:text-blue-700">
-      
+
       {/* Dynamic Grid Background Accent */}
       <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_right,#e2e8f0_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f0_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-60" />
 
@@ -210,7 +210,7 @@ export default function Home() {
         {/* Products / Portfolio Section */}
         <section id="products" className="py-20 bg-white border-y border-slate-200/60 relative">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            
+
             <div className="text-center max-w-2xl mx-auto mb-16">
               <h2 className="text-3xl font-bold text-slate-900 tracking-tight sm:text-4xl mb-4">
                 Our Digital Studio Products
@@ -233,11 +233,10 @@ export default function Home() {
                         {product.title}
                       </h3>
                       <span
-                        className={`inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold ${
-                          product.status === "Live"
+                        className={`inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold ${product.status === "Live"
                             ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
                             : "bg-amber-50 text-amber-700 border border-amber-200"
-                        }`}
+                          }`}
                       >
                         {product.status}
                       </span>
@@ -303,7 +302,7 @@ export default function Home() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
             <div className="bg-white rounded-3xl border border-slate-200/80 p-8 sm:p-12 shadow-sm relative overflow-hidden">
               <div className="absolute right-0 top-0 translate-x-12 -translate-y-12 w-64 h-64 bg-blue-500/5 rounded-full blur-3xl -z-10" />
-              
+
               <div className="flex flex-col md:flex-row gap-8 items-start">
                 <div className="flex-1">
                   <span className="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-2.5 py-1 rounded">
