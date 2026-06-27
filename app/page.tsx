@@ -24,12 +24,12 @@ export default function Home() {
   // Products Data
   const products = [
     {
-      title: "Manusiain",
+      title: "ManusiaIn",
       status: "Live",
-      description: "A comprehensive digital platform and web service designed to streamline human-centric data processing and workflow automation.",
+      description: "A comprehensive digital platform and web service designed to paraphrase AI generated text to human-like text.",
       link: "https://manusiain.web.id",
       tech: ["Next.js", "Tailwind CSS", "TypeScript", "Node.js", "etc."],
-      features: ["Real-time synchronization", "Intuitive user dashboard", "Secure data privacy controls"],
+      features: ["Paraphrase AI generated text to human-like text"],
     },
     {
       title: "InooBiz Wedding SaaS",
@@ -234,8 +234,8 @@ export default function Home() {
                       </h3>
                       <span
                         className={`inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold ${product.status === "Live"
-                            ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
-                            : "bg-amber-50 text-amber-700 border border-amber-200"
+                          ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
+                          : "bg-amber-50 text-amber-700 border border-amber-200"
                           }`}
                       >
                         {product.status}
