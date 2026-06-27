@@ -180,7 +180,6 @@ export default function TermsOfService() {
               </p>
               <div className="bg-slate-50 rounded-2xl p-5 border border-slate-200 text-xs sm:text-sm space-y-2">
                 <p><strong>Studio Name:</strong> InooBiz (Independent Digital Studio)</p>
-                <p><strong>Business Mailing Address:</strong> Jl. Kemang Raya No. 10, Jakarta Selatan, DKI Jakarta 12730, Indonesia</p>
                 <p><strong>Contact Email:</strong> <a href="mailto:hello@inoobiz.com" className="text-blue-600 hover:underline">hello@inoobiz.com</a></p>
                 <p><strong>Contact WhatsApp:</strong> <a href="https://wa.me/628567878149" className="text-blue-600 hover:underline">+62 856-7878-149</a></p>
               </div>

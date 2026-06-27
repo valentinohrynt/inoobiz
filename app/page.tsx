@@ -7,7 +7,6 @@ import {
   ExternalLink,
   Mail,
   Phone,
-  MapPin,
   Clock,
   CheckCircle,
   ShieldCheck,
@@ -390,24 +389,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Address / Registered office detail */}
-            <div className="mt-12 p-6 sm:p-8 rounded-3xl border border-slate-200 bg-slate-50/50 flex flex-col sm:flex-row gap-6 items-start sm:items-center justify-between">
-              <div className="flex gap-4 items-start sm:items-center">
-                <div className="h-10 w-10 rounded-lg bg-rose-50 flex items-center justify-center text-rose-600 flex-shrink-0">
-                  <MapPin className="h-5 w-5" />
-                </div>
-                <div>
-                  <h4 className="font-bold text-slate-900">Mailing & Business Address</h4>
-                  <p className="text-sm text-slate-600 mt-0.5">
-                    Jl. Kemang Raya No. 10, Jakarta Selatan, DKI Jakarta 12730, Indonesia
-                  </p>
-                </div>
-              </div>
-              <div className="text-xs text-slate-400 bg-white border border-slate-200/80 px-3 py-1.5 rounded-lg flex items-center gap-1.5 self-stretch sm:self-auto justify-center">
-                <ShieldCheck className="h-4 w-4 text-slate-400" />
-                PG Verified Legitimacy
-              </div>
-            </div>
+
           </div>
         </section>
       </main>
