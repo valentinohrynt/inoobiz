@@ -23,7 +23,7 @@ export default function PrivacyPolicy() {
             <img
               src="/inoobiz-logo-horizontal.svg"
               alt="InooBiz Logo"
-              className="h-6 w-auto block"
+              className="h-11 w-auto block"
             />
           </Link>
         </div>

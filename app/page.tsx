@@ -55,7 +55,7 @@ export default function Home() {
             <img
               src="/inoobiz-logo-horizontal.svg"
               alt="InooBiz Logo"
-              className="h-8 w-auto block"
+              className="h-12 w-auto block"
             />
           </Link>
 
