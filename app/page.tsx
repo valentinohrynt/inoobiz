@@ -52,14 +52,13 @@ export default function Home() {
       {/* Header / Navigation Bar */}
       <header className="sticky top-0 z-40 w-full border-b border-slate-200/80 bg-white/80 backdrop-blur-md">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="h-9 w-9 rounded-lg bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center shadow-md shadow-blue-500/20">
-              <Layers className="h-5 w-5 text-white" />
-            </div>
-            <span className="text-xl font-bold tracking-tight text-slate-900">
-              InooBiz<span className="text-blue-600">.</span>
-            </span>
-          </div>
+          <Link href="/" className="flex items-center">
+            <img
+              src="/inoobiz-logo-horizontal.svg"
+              alt="InooBiz Logo"
+              className="h-8 w-auto block"
+            />
+          </Link>
 
           {/* Desktop Nav Links */}
           <nav className="hidden md:flex items-center gap-8">
@@ -418,14 +417,13 @@ export default function Home() {
       <footer className="bg-slate-900 text-slate-400 border-t border-slate-800">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-slate-800">
-            <div className="flex items-center gap-2">
-              <div className="h-7 w-7 rounded bg-blue-600 flex items-center justify-center">
-                <Layers className="h-4 w-4 text-white" />
-              </div>
-              <span className="text-lg font-bold tracking-tight text-white">
-                InooBiz<span className="text-blue-500">.</span>
-              </span>
-            </div>
+            <Link href="/" className="flex items-center bg-white px-3 py-1.5 rounded-xl shadow-sm border border-slate-800 hover:bg-slate-50 transition-colors">
+              <img
+                src="/inoobiz-logo-horizontal.svg"
+                alt="InooBiz Logo"
+                className="h-6 w-auto block"
+              />
+            </Link>
 
             {/* Footer Navigation */}
             <nav className="flex flex-wrap justify-center gap-x-8 gap-y-4 text-sm font-medium">

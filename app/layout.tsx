@@ -25,6 +25,10 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
+  icons: {
+    icon: "/inoobiz-icon.svg",
+    apple: "/inoobiz-icon.svg",
+  },
 };
 
 export default function RootLayout({

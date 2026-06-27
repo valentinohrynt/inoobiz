@@ -19,11 +19,13 @@ export default function PrivacyPolicy() {
               Back to Home
             </span>
           </Link>
-          <div className="flex items-center gap-1.5">
-            <span className="text-sm font-bold tracking-tight text-slate-900">
-              InooBiz<span className="text-blue-600">.</span>
-            </span>
-          </div>
+          <Link href="/" className="flex items-center">
+            <img
+              src="/inoobiz-logo-horizontal.svg"
+              alt="InooBiz Logo"
+              className="h-6 w-auto block"
+            />
+          </Link>
         </div>
       </header>
 

@@ -1,0 +1,15 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">InooBiz Logo - Monochrome</title>
+  <desc id="desc">Editable monochrome vector logo for InooBiz.</desc>
+
+  <rect x="48" y="40" width="224" height="224" rx="56" fill="#0F172A"/>
+  <path d="M108 177C108 146.624 132.624 122 163 122H210V154H166C153.297 154 143 164.297 143 177C143 189.703 153.297 200 166 200H210V232H163C132.624 232 108 207.376 108 177Z" fill="white"/>
+  <path d="M210 88C226.569 88 240 101.431 240 118C240 134.569 226.569 148 210 148H184V116H207C212.523 116 217 111.523 217 106C217 100.477 212.523 96 207 96H184V88H210Z" fill="#CBD5E1"/>
+  <path d="M184 96H142C120.461 96 103 113.461 103 135V137H135V135C135 131.134 138.134 128 142 128H184V96Z" fill="white"/>
+  <rect x="87" y="77" width="18" height="18" rx="5" fill="#CBD5E1"/>
+  <rect x="228" y="201" width="18" height="18" rx="5" fill="#CBD5E1"/>
+  <circle cx="236" cy="81" r="8" fill="#CBD5E1"/>
+
+  <text x="328" y="160" font-family="Inter, Manrope, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="88" font-weight="800" letter-spacing="-3.2" fill="#0F172A">InooBiz</text>
+  <text x="333" y="215" font-family="Inter, Manrope, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26" font-weight="500" letter-spacing="3.6" fill="#64748B">INDEPENDENT DIGITAL STUDIO</text>
+</svg>
